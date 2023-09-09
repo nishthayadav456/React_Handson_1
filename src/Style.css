@@ -9,39 +9,44 @@ body{
 
 .ss{
   
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 20px;
 }
 p{
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     margin-top: 20px;
 
 }
 .box1{
-    height:300px;
-    width:500px;
+    height:250px;
+    width:400px;
     border:3px solid black;
     border-radius: 40px;
-    margin-top: 250px;
     background-color: rgb(75, 69, 185);
     position: absolute;
-    left:200px;
+    left:15rem;
+    top:20rem;
+    
     
    
 }
 .box2{
-    height:300px;
-    width:500px;
+    height:250px;
+    width:400px;
     border:3px solid black; 
     border-radius: 40px;
-    margin-top: 250px;
     background-color: rgb(95, 192, 179);
-    position: absolute;
-    right:200px;
+   position: absolute;
+    right:15rem;
+    top:20rem;
+    
+   
+
+
 }
 h2{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding: 20px;
 }
@@ -54,31 +59,32 @@ h1{
 
 .App{
     display: flex;
-   
     justify-content: center;
   }
   .btn1{
-    padding:25px;
-    font-size: 15px;
+   height:80px;
+   width:300px;
     border-radius: 50px;
    position: absolute;
-   left:400px;
-   top:150px;
+  
+   left:20rem;
+   top:10rem;
    background-color: rgb(92, 138, 138);
   }
   .btn1:hover{
     background-color: aqua;
   }
   .btn2{
-    padding:25px;
-    font-size: 15px;
+    height:80px;
+    width:300px;
     border-radius: 50px;
    position: absolute;
-   right:400px;
-   top:150px;
+    right:20rem;
+   top:10rem;
    background-color: rgb(92, 138, 138);
   }
-  .btn2:hover{
+   .btn2:hover{
     background-color: aqua;
-  }
-  
+  } 
+   
+ 
