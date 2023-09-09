@@ -1,6 +1,7 @@
 
 import './App.css';
 import DisplayData from './DisplayData';
+import DisplayData1 from './DisplayData1';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <div>
     
     <DisplayData/>
+    <DisplayData1/>
   
     
     </div>
